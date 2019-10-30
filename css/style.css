@@ -1,0 +1,139 @@
+body {
+    background: #ffffff;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+}
+
+body, form, div, p, a, img, h1, h2, h3, h4, h5, h6, table, table tr, table td {
+    border: none;
+    color: #000000;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    padding: 0;
+}
+
+input,
+textarea,
+select {
+    outline: none;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 14px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: underline;
+    outline: none;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+h1, h2 {
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: 10px;
+    margin: 0 0 30px 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: normal;
+    color: #27b4b6;
+    text-transform: uppercase;
+}
+
+.clear {
+    clear: both;
+    font-size: 0;
+    line-height: 0;
+    height: 0;
+}
+
+.mainer {
+ 
+    box-sizing: border-box;
+    max-width: 940px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h1::before {
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    content: "who we are";
+    display: block;
+    font-size: 12px;
+    letter-spacing: 6px;
+    color: #958089;
+    padding: 70px 0 20px 0;
+
+}
+
+.text {
+    max-width: 515px;
+    margin: 0 auto 108px;
+    font-family: 'PT Sans', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    padding: 0;
+    opacity: 0.6;
+    line-height: 30px;
+}
+
+.our-features {
+    background-color: #f7f7f7;
+    padding: 0;
+    margin: 0 0 140px 0;
+    list-style: none;
+    display: flex;
+    box-sizing: border-box;
+}
+
+.our-features .caption {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    text-transform: uppercase;
+    margin: 0 0 15px 0;
+}
+
+.our-features li {
+    text-align: center;  
+    padding: 0 10px; 
+    line-height: 22px;
+    width: 50px;
+    flex-grow: 1;
+    margin: 0 20px;
+    display: block;
+    
+}
+
+.our-features li:hover,
+li:hover .icon,
+li:hover .caption {
+    background-color: #27b4b6; 
+    color: #ffffff;
+}
+
+.our-features .icon {
+    padding: 55px 0 0 0;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 0 0 60px 0;
+    line-height: 80px;
+    color: #000000;
+    font-size: 75px;
+}
+
+
